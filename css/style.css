@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+}
+
+.column {
+  width: 300px;
+  float: right;
+  margin-top: 30px;
+}
+
+p {
+  font-family: sans-serif;
+  color: Purple;
+}
+
+.container {
+  display: grid;
+  height: 250px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  margin-left: 90px;
+  margin-right: auto;
+  margin-top: 20px;
+}
